@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link href="/Landing-page/images/logo.png" rel="icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,47 +20,108 @@
     </header>
 
     <section id="hero">
-        <h1>Catchy Headline</h1>
-        <p>Subtitle or brief description.</p>
+        <div class="hero-content">
+            <h1>Catchy Headline</h1>
+            <p>Subtitle or brief description.</p>
+            <div class="cta-buttons">
+                <button>Call to Action 1</button>
+                <button>Call to Action 2</button>
+            </div>
+        </div>
     </section>
 
     <section id="features">
         <h2>Main Features</h2>
         <div class="feature-list">
-            <!-- Feature items go here -->
+            <div class="feature-item">
+                <h3>Feature 1</h3>
+                <p>Description of Feature 1.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Feature 2</h3>
+                <p>Description of Feature 2.</p>
+            </div>
+            <!-- Add more feature items as needed -->
         </div>
     </section>
 
     <section id="screenshots">
         <h2>App Interface</h2>
         <div class="gallery">
-            <!-- Screenshot items go here -->
+            <img src="screenshot1.jpg" alt="Screenshot 1">
+            <img src="screenshot2.jpg" alt="Screenshot 2">
+            <!-- Add more screenshots as needed -->
         </div>
     </section>
+    
 
     <section id="testimonials">
         <h2>User Feedback</h2>
         <div class="testimonials-list">
-            <!-- Testimonial items go here -->
+            <div class="testimonial">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                <span class="author">John Doe</span>
+            </div>
+            <div class="testimonial">
+                <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                <span class="author">Jane Smith</span>
+            </div>
+            <!-- Add more testimonials as needed -->
         </div>
     </section>
+    
 
     <section id="pricing">
         <h2>Pricing Plans</h2>
         <div class="pricing-list">
-            <!-- Pricing items go here -->
+            <div class="pricing-item">
+                <h3>Basic</h3>
+                <p class="price">$10<span>/month</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <!-- Add more features as needed -->
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="pricing-item">
+                <h3>Premium</h3>
+                <p class="price">$20<span>/month</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <!-- Add more features as needed -->
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <!-- Add more pricing items as needed -->
         </div>
     </section>
+    
 
     <section id="contact">
         <h2>Contact Us</h2>
         <form>
-            <input type="email" placeholder="Your email">
-            <textarea placeholder="Your message"></textarea>
-            <button  type="submit">Send</button>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </section>
 
+
+    <section id="download">
+        <h2>Download Our App</h2>
+        <div class="download-links">
+            <a href="app-ios-download-link" class="download-link">Download for iOS</a>
+            <a href="app-android-download-link" class="download-link">Download for Android</a>
+            <!-- Add more download links as needed -->
+        </div>
+    </section>
+    
+    
     <footer>
         <p>&copy; Landing Page</p>
     </footer>
