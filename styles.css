@@ -167,7 +167,7 @@ nav a {
 }
 .fphead {
     display: flex;
-    margin-left: 100px;
+    color: #000;
     justify-content: space-around;
     
 
